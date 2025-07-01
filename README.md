@@ -111,7 +111,7 @@ ninja_game/
    ```bash
    git clone https://github.com/yourusername/ninja-platformer.git
    cd ninja-platformer
-```
+    ```
 
 2. **Install dependencies:**
     ```bash
