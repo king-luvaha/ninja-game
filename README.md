@@ -2,7 +2,7 @@
 
 A fast-paced 2D ninja platformer built with **Pygame**, featuring dynamic movement mechanics, enemies, parallax clouds, particles, dashing, wall sliding, and a custom tile-based level editor.
 
-![Ninja Game](Ninja_Game.gif) <!-- Optional: include a screenshot of your game -->
+![Ninja Game](Ninja_Game.mp4) <!-- Optional: include a screenshot of your game -->
 
 ---
 
