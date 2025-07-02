@@ -27,27 +27,15 @@ A fast-paced 2D ninja platformer built with **Pygame**, featuring dynamic moveme
 ninja_game/
 ├── data/
 │   ├── images/                             # Game sprites and tiles
-│   │   ├── clouds/
-│   │   ├── entities/
-│   │   │   ├── enemy/
-│   │   │   │   ├── idle/
-│   │   │   │   └── run/
-│   │   │   └── player/
-│   │   │       ├── idle/
-│   │   │       ├── jump/
-│   │   │       ├── run/
-│   │   │       ├── slide/
-│   │   │       ├── wall_slide/
+│   │   ├── clouds/                         # Cloud images
+│   │   ├── entities/                       # Contains sprite folders for enemies and players
+│   │   │   ├── enemy/                      # Contains animation frames for 'idle/', 'run/' states
+│   │   │   └── player/                     # Contains frames for 'idle/', 'run/', 'jump/', etc.
 │   │   │       └── player.png
-│   │   ├── particles/
+│   │   ├── particles/                      # Contains folders like 'leaf/' and 'particle/' animations
 │   │   │   ├── leaf/
 │   │   │   └── particle/
-│   │   └── tiles/
-│   │       ├── decor/
-│   │       ├── grass/
-│   │       ├── large_decor/
-│   │       ├── spawners/
-│   │       ├── stone/
+│   │   └── tiles/                          # Tile images (decor, grass, stone, large_decor, spawners)
 │   │       ├── background.png
 │   │       ├── gun.png
 │   │       └── projectile.png
@@ -63,7 +51,7 @@ ninja_game/
 │   └── utils.py                            # Asset loader, animation class
 ├── editor.py                               # Tilemap level editor
 ├── game.py                                 # Main game loop
-└── map.json
+└── map.json                                # Default or last-saved tilemap
 
 ```
 
@@ -154,11 +142,5 @@ MIT License
 ## 💡 Credits
 
 - Developed using **Python** and **Pygame**    
-
----
-
-## 🤝 Contributing
-
-Feel free to fork this repo, submit issues, or open pull requests. Contributions are welcome!
 
 ---
