@@ -135,7 +135,7 @@ Make sure all asset folders (`data/images`, `data/maps`, `data/sfx`, etc.) are i
 
 ## 📜 License
 
-MIT License
+[MIT License](LICENSE)
 
 ---
 
